@@ -24,3 +24,6 @@ cd ..
 wget https://pjreddie.com/media/files/darknet53.conv.74 .
 
 ./darknet detector train gsr/gsr.data gsr/yolov3_gsr.cfg darknet53.conv.74 -dont_show -mjpeg_port 8090 -map
+aws s3 sync /local/dir s3://ai-projects-ahmorsi/yolo-gsr/
+
+shutdown -h now
