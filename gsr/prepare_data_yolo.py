@@ -38,11 +38,11 @@ def prepare_data(base_dir, img_list_filename):
             writer.write("{}\n".format(os.path.join(base_dir, filename)))
 
 
-base_dir = "TrainIJCNN2013/"
+base_dir = "gsr/TrainIJCNN2013/"
 img_list_filename = "train_gsr.txt"
 prepare_data(base_dir, img_list_filename)
 
-base_dir = "TestIJCNN2013/"
+base_dir = "gsr/TestIJCNN2013/"
 img_list_filename = "test_gsr.txt"
 
 prepare_data(base_dir, img_list_filename)

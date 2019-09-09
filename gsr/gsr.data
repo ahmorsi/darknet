@@ -1,6 +1,6 @@
 classes= 43
-train  = TrainIJCNN2013/train_gsr.txt
-valid  = TestIJCNN2013/test_gsr.txt
+train  = gsr/TrainIJCNN2013/train_gsr.txt
+valid  = gsr/TestIJCNN2013/test_gsr.txt
 names = gsr/gsr.names
 backup = gsr/backup
 eval=gsr
