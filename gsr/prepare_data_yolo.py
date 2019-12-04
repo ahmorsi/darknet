@@ -35,7 +35,7 @@ def prepare_data(base_dir, img_list_filename):
     print("Generate list of file names")
     with open(os.path.join(base_dir, img_list_filename), mode="w") as writer:
         for filename in train_data_dict:
-            writer.write("{}\n".format(os.path.join(base_dir, filename)))
+            writer.write("{}\n".format(os.path.abspath(os.path.join(base_dir, filename))))
 
 
 base_dir = "gsr/TrainIJCNN2013/"
