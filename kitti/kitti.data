@@ -1,0 +1,6 @@
+classes= 9
+train  = kitti/train.txt
+valid  = kitti/test.txt
+names = kitti/obj.names
+backup = kitti/backup
+eval=kitti
